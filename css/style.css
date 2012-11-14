@@ -1,0 +1,983 @@
+/************************************************/
+/************************************************/
+/*********** Begin Cydia Browser CSS *************/
+/************************************************/
+/************************************************/
+
+#cydia_content {
+	margin-bottom: 18px;
+	background:#fff;
+}
+
+.cydia_copy {
+padding: 18px 18px 0px 18px;
+background:#fff;}
+
+.cydia_search_main_data {
+	white-space:nowrap;
+	width: 960px;
+}
+
+.cydia_browser_intro {
+	padding: 2em 20px 5px 20px;;
+	clear: both;
+	line-height: 1.6em;
+	margin-bottom: 1em;
+}
+	
+	
+.cydia_faqs_container{	
+	padding: 30px 20px 5px 20px;;
+	clear: both;
+	float:left;
+	line-height: 1.6em;
+	margin-bottom: 1em;
+	
+}	
+
+.cydia_faqs_container p{
+padding: 5px 0px 25px 0px;	
+}
+	
+.cydia_faqs_title h3{
+	/*font-size:1.3em;
+	line-height:1.4;
+	margin-bottom:0.3em;
+	padding: 0 20px; 2px 0;
+	font-weight: bold;*/
+				font-size: 20px;
+	letter-spacing: -1px;
+	color: #222222;
+	text-decoration: none;
+	margin-bottom:0.3em;
+	padding: 0px 0px 0px 10px;		
+	float:left;
+
+}	
+
+.package_search_results_container {
+float: left;
+padding: 18px 30px;
+}
+
+.package_search_results {
+clear:both;
+padding: 5px 0px 5px;
+}
+
+
+.cydia_browser_header_container
+{
+float:right;
+margin-top: -50px;
+}
+
+.cydia_browser_header_link
+{
+font-weight: bold;
+	display:inline;
+	padding: 0px 10px 0px 10px;
+	
+}
+
+.cydia_browser_header_link a
+{
+font-weight: bold;
+color: #0088cc;
+}
+
+.cydia_browser_header_link a:hover
+{
+font-weight: bold;
+}
+
+.cydia_browser_header_link a:active
+{
+font-weight: bold;
+color: #666;
+}
+
+
+
+.search_pagination_link {
+	display:inline;	
+}
+
+
+
+.faq_trusted_untrusted_p{
+padding: 5px 0px 0px 0px;
+margin: 0;	
+}
+
+
+
+/************************************************/
+/*********** Repositories Column *************/
+/************************************************/
+.package_box_repositories {
+width: 25%;
+float: left;
+display: inline;
+padding: 18px 30px;
+}
+
+
+	.package_repositories_link{
+	background:url(/cydia/img/sources-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+
+	}
+	
+	.package_repositories_link a{
+	font-weight: bold;
+	color: #222;
+	}
+
+
+
+
+/************************************************/
+/************** Categories Column ***************/
+/************************************************/
+.package_box_categories {
+width: 25%;
+float: left;
+display: inline;
+padding: 18px 30px;
+white-space: nowrap;
+}
+
+
+
+
+	.package_categories_link{
+	background:url(/cydia/img/folder.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+	.package_categories_link a{
+	font-weight: bold;
+	color: #222;
+	}
+
+	
+	
+
+
+/************************************************/
+/*********** Latest Packages Column *************/
+/************************************************/
+.package_box_new {
+width: 31%;
+float: left;
+display: inline;
+padding: 18px 30px;
+}
+
+
+	.package_new_link{
+	background:url(/cydia/img/package-icon2.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+
+	}
+	
+	.paid {
+	
+	color: #0088cc;
+	}
+	
+	.free {
+	
+	color: #222;
+	}
+
+
+.added_package h3 {
+	/*font-size:1.3em;
+	line-height:1.4;
+	margin-bottom:0.3em;
+	padding: 0 20px; 2px 0;
+	font-weight: bold;*/
+				font-size: 20px;
+	letter-spacing: -1px;
+	color: #222222;
+	text-decoration: none;
+	margin-bottom:0.3em;
+	padding: 0px 0px 0px 0;		
+	float:left;
+	font-weight:bold;
+}
+
+.updated_package h3 {
+	/*font-size:1.3em;
+	line-height:1.4;
+	margin-bottom:0.3em;
+	padding: 0 20px; 2px 0;
+	font-weight: bold;*/
+				font-size: 20px;
+	letter-spacing: -1px;
+	color: #222222;
+	text-decoration: none;
+	margin-bottom:0.3em;
+	padding: 0px 0px 0px 0;		
+	float:left;
+	font-weight:bold;
+}
+
+
+
+
+
+/************************************************/
+/*********** ?????????????????????? *************/
+/************************************************/
+
+.package_boxtitle
+{
+}
+.package_boxtitle h3
+{
+	/*font-size:1.3em;
+	line-height:1.4;
+	margin-bottom:0.3em;
+	padding: 5px 0px 0px 0;
+	font-weight: bold;
+	float:left;*/
+			font-size: 20px;
+	letter-spacing: -1px;
+	color: #222222;
+	text-decoration: none;
+	margin-bottom:0.3em;
+	padding: 0px 0px 0px 0;		
+	float:left;
+
+}
+
+.rss_icon_title{
+	float:left;
+	margin: 6px 0px 0px 10px;
+	padding: 0 0 0px 0px;
+}
+
+.rss_icon_title img{
+	border: 0;
+}
+
+.package_boxtext {
+	padding: 0 0px 0px 0;
+	clear:both;
+	
+}
+
+.package_boxtext p {
+  margin-bottom: 10px;
+  }
+.package_boxtext ul {
+  list-style-type: none;
+  margin-top: 5px;
+  }
+.package_boxtext ul li, #morefoot p {
+  font-size: 11px;
+  }
+.package_boxtext ul a {
+  text-decoration: underline;
+  color: #333;
+  }
+.package_boxtext a:hover {
+  text-decoration: underline;
+  }
+.package_boxtext li {
+  margin-bottom: 5px;
+  line-height: 17px; /* Required for cross-browser consistency; cross-browser defaults vary. */
+  }
+  
+  
+  
+  
+
+/************************************************/
+/********** Cydia Browser Search Form ***********/
+/************************************************/	
+#package_search_form_container {
+width:100%;;	
+margin: 30px 0px 0px 10px;
+}
+
+.package_search_form_title {
+	display: inline;
+	font-size:1.3em;
+	line-height:1.4;
+	padding: 5px 0px 2px 15px;
+	font-weight: bold;	
+}
+
+
+
+.package_search_form select {
+		border: 1px solid #aaa;
+		/*background: #e5e5e5 url(/cydia/img/gradlight.gif) repeat-x left bottom;*/
+		margin:0;
+		padding: 5px 3px 4px 5px;
+		font-family: arial, helvetica;
+		font-weight: bold;
+		color: #333;
+	}	
+
+
+
+.package_search_form input[type="text"] {
+		border: 1px solid #aaa;
+		/*background: #e5e5e5 url(/cydia/img/gradlight.gif) repeat-x left bottom;*/
+		margin:0;
+		padding: 5px 3px 4px 5px;
+		font-family: arial, helvetica;
+		font-weight: bold;
+		color: #333;
+		height: 18px;
+	}	
+
+	
+.package_search_form button, input[type="submit"], .submit{
+		border: 1px solid #aaa;
+		background: #e5e5e5 url(/cydia/img/gradlight.gif) repeat-x left bottom;
+		margin:0;
+		padding: 5px 5px 4px 5px;
+		font-family: arial, helvetica;
+		font-weight: bold;
+		color: #333;
+	}
+
+	
+.package_search_form button:hover, input[type="submit"]:hover{
+		background: #535353 url(/cydia/img/graddark.gif) repeat-x top left; 
+		color: #fff;
+		cursor: pointer;
+	}
+	
+
+.package_search_input {
+	display:inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}	
+	
+.package_search_select {
+	display:inline;
+	padding-right: 10px;
+}
+
+.package_search_button {
+	display:inline;
+}
+
+
+
+
+
+
+
+
+/************************************************/
+/********** Package Details ***********/
+/************************************************/
+.trusted_package_faq{
+	
+		-moz-border-radius-bottomleft: 5px;
+		-moz-border-radius-bottomright: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+		-webkit-border-bottom-right-radius: 5px;
+		-khtml-border-bottom-left-radius: 5px;
+		-khtml-border-bottom-right-radius: 5px;
+		
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-khtml-border-top-left-radius: 5px;
+		-khtml-border-top-right-radius: 5px;		
+background: #dcfacb;
+		border: 1px solid #cfcfcf;	
+		height: 28px;
+		width:851px;
+		padding: 10px 10px 5px 15px;
+		margin: 15px 0px 25px 0px;
+		
+
+}
+
+.untrusted_package_faq{
+	
+		-moz-border-radius-bottomleft: 5px;
+		-moz-border-radius-bottomright: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+		-webkit-border-bottom-right-radius: 5px;
+		-khtml-border-bottom-left-radius: 5px;
+		-khtml-border-bottom-right-radius: 5px;
+		
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-khtml-border-top-left-radius: 5px;
+		-khtml-border-top-right-radius: 5px;		
+background: #facbcb;
+		border: 1px solid #cfcfcf;	
+		height: 28px;
+		width:851px;
+		padding: 10px 10px 5px 15px;
+		margin: 15px 0px 20px 0px;
+
+		
+}
+
+
+.trusted_package{
+	
+		-moz-border-radius-bottomleft: 5px;
+		-moz-border-radius-bottomright: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+		-webkit-border-bottom-right-radius: 5px;
+		-khtml-border-bottom-left-radius: 5px;
+		-khtml-border-bottom-right-radius: 5px;
+		
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-khtml-border-top-left-radius: 5px;
+		-khtml-border-top-right-radius: 5px;		
+background: #dcfacb;
+		border: 1px solid #cfcfcf;	
+		height: 28px;
+		width:891px;
+		padding: 10px 10px 5px 15px;
+		margin: 15px 20px 10px 20px;
+		
+
+}
+
+.trusted_package_icon{
+	background:url(/cydia/img/signed24x24.png) no-repeat 0px 0px;
+	padding: 2px 0px 4px 0px;
+	text-indent:35px;
+	text-align:left;
+}
+
+.untrusted_package{
+	
+		-moz-border-radius-bottomleft: 5px;
+		-moz-border-radius-bottomright: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+		-webkit-border-bottom-right-radius: 5px;
+		-khtml-border-bottom-left-radius: 5px;
+		-khtml-border-bottom-right-radius: 5px;
+		
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-khtml-border-top-left-radius: 5px;
+		-khtml-border-top-right-radius: 5px;		
+background: #facbcb;
+		border: 1px solid #cfcfcf;	
+		height: 28px;
+		width:891px;
+		padding: 10px 10px 5px 15px;
+		margin: 15px 20px 10px 20px;
+
+		
+}
+
+.untrusted_package_icon{
+	background:url(/cydia/img/unsigned24x24.png) no-repeat 0px 0px;
+	padding: 2px 0px 4px 0px;
+	text-indent:35px;
+	text-align:left;
+}
+
+
+.package_info_container {
+padding: 18px 0px 18px 30px;
+width: 920px;
+}
+
+.package_info_container h3
+{
+	/*font-size:1.3em;
+	line-height:1.4;
+	padding: 5px 0px 0px 0;
+	font-weight: bold;*/
+		font-size: 24px;
+	letter-spacing: -1px;
+	color: #222222;
+	text-decoration: none;
+	float:left;
+}
+
+.package_type_free {
+		background:url(/cydia/img/free-icon-alt32x32.png) no-repeat 0px 0px;
+		padding: 6px 0px 4px 0px;
+		display:table-cell;
+		text-indent: 40px;
+		height: 32px;	
+}
+
+.package_type_paid {
+		background:url(/cydia/img/store-icon32x32.png) no-repeat 0px 0px;
+		padding: 7px 0px 4px 0px;
+		display:table-cell;
+		text-indent: 40px;
+		height: 32px;	
+}
+
+.package_description {
+/*width: 518px;*/
+margin: 0px 0px 0px 0px;
+font-size: 14px;
+
+}
+
+
+.package_info {
+	padding: 0 20px 5px 10px;;
+	clear: both;
+	line-height: 1.6em;
+	margin-bottom: 1em;
+	width: 473px;
+	float:left;
+	
+}
+
+
+.package_details {
+	padding: 30px 20px 5px 10px;;
+	line-height: 1.6em;
+	margin-bottom: 1em;
+	width:473px;
+
+	
+}
+
+
+/*** IE TABLES STUFF***/
+.package_details td{
+padding: 0px 20px 0px 0px;
+	
+}
+
+.package_details_text_table {
+font-weight: normal;	
+display:table-cell;
+vertical-align:middle;
+
+}
+
+
+/*** END OF IE TABLES STUFF ***/
+
+
+
+.package_details_version{
+font-size: 11px;	
+padding: 13px 0px 0px 0px;
+text-indent:8px;
+font-weight: bold;
+}
+
+.package_details_table {
+padding: 2px 0px;
+display: table;
+}
+.package_details_row {
+display: table-row;
+}
+
+.package_details_text_title {
+font-weight: bold;
+padding: 8px 0 0 15px;
+display: table-cell;
+vertical-align:top;
+[if IE] float:left;
+}
+
+.package_details_text {
+font-weight: normal;
+padding: 8px 0 0 10px;	
+display:table-cell;
+vertical-align:top;
+width: 300px;
+max-width: 300px;
+min-width: 300px;
+
+}
+
+	.package_details_icon_date {
+	    background:url(/cydia/img/lastupdated-icon32x32.png) no-repeat 0px 0px;
+		padding: 2px 0px 4px 0px;
+		display:table-cell;
+		width: 32px;
+		height: 32px;
+	}
+	
+	.package_details_icon_author{
+		background:url(/cydia/img/author-icon32x32.png) no-repeat 0px 0px;
+		padding: 2px 0px 4px 0px;
+		display:table-cell;
+		width: 32px;
+		height: 32px;
+
+	}
+	
+	.package_details_icon_id{
+		background:url(/cydia/img/id-icon32x32.png) no-repeat 0px 0px;
+		padding: 2px 0px 4px 0px;
+		display:table-cell;
+		width: 32px;
+		height: 32px;
+
+	}
+	
+	.package_details_icon_source{
+		background:url(/cydia/img/source-icon32x32.png) no-repeat 0px 0px;
+		padding: 2px 0px 4px 0px;
+		display:table-cell;
+		width: 32px;
+		height: 32px;
+
+
+	}			
+
+	.package_details_icon_section{
+		background:url(/cydia/img/section-icon32x32.png) no-repeat 0px 0px;
+		padding: 2px 0px 4px 0px;
+		display:table-cell;
+		width: 32px;
+		height: 32px;
+
+
+	}
+	
+	.package_details_icon_maintainer{
+		background:url(/cydia/img/maintainer-icon32x32.png) no-repeat 0px 0px;
+		padding: 2px 0px 4px 0px;
+		display:table-cell;
+		width: 32px;
+		height: 32px;
+
+
+	}
+	
+	.package_details_icon_filename{
+		background:url(/cydia/img/filename-icon32x32.png) no-repeat 0px 0px;
+		padding: 2px 0px 4px 0px;
+		display:table-cell;
+		width: 32px;
+		height: 32px;
+
+
+	}
+	
+	.package_details_icon_size{
+		background:url(/cydia/img/size-icon32x32.png) no-repeat 0px 0px;
+		padding: 2px 0px 4px 0px;
+		display:table-cell;
+		width: 32px;
+		height: 32px;
+
+	}
+	
+	.package_details_icon_homepage{
+		background:url(/cydia/img/homepage-icon32x32.png) no-repeat 0px 0px;
+		padding: 2px 0px 4px 0px;
+		display:table-cell;
+		width: 32px;
+		height: 32px;
+
+
+
+	}
+	
+	.package_details_icon_sponsor{
+		background:url(/cydia/img/sponsor-icon32x32.png) no-repeat 0px 0px;
+		padding: 2px 0px 4px 0px;
+		display:table-cell;
+		width: 32px;
+		height: 32px;
+
+
+	}					
+	
+	
+	
+	
+	
+	
+	
+	
+.package_depiction_bg {
+		background: url(/cydia/img/iphone4-background.jpg) no-repeat;
+	margin-top: -50px;
+		width: 416px;
+		height: 848px;
+		float:right;
+		z-index: 1;
+
+
+			
+}
+	
+	
+#package_depiction_view {
+margin: 140px 0px 0px 29px;
+	width:360px;
+	height:520px;
+	  overflow:auto;
+	  position: relative;
+
+}
+
+
+
+.package_depiction_iframe {
+	float:right;
+	width:360px;
+	height:520px;
+		  overflow:auto;
+}
+
+	
+
+
+
+
+
+/************************************************/
+/************ Pagination Link Styling ***********/
+/************************************************/
+div.pagination {
+	clear:both;
+	background-color:#fff;
+	color:#666;
+	padding:30px 0 10px 0;
+    width: 900px;
+	  	
+
+
+	font-size: 13px;
+	text-align:center;
+}
+
+div.pagination a {
+	color:#666;
+	padding:2px 5px;
+	margin:0 2px;
+	text-decoration:none;
+	border:1px solid #ccc;
+	background:#EAEAEA;
+}
+
+div.pagination a:hover, div.pagination a:active {
+	border:1px solid #666;
+	color:#666;
+}
+
+div.pagination span.current {
+	padding:2px 5px;
+	border:1px solid #ccc;
+	color:#666;
+
+	
+}
+div.pagination span.disabled {
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+	.section_addons{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+	.section_addons_bootlogo{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+	.section_addons_bosspaper{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_addons_cydget{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_addons_fontswap_v2{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_addons_iconoclasm{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_addons_lockinfo{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_addons_opennotifier{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_addons_sbsettings{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_administration{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_app_addons{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_games{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_games{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_games{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_games{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_games{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_games{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_games{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+		.section_games{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+
+	.section_games{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+
+	.section_games{
+	background:url(/cydia/img/games-icon.png) no-repeat 0px 4px;
+	padding: 2px 0px 2px 0px;
+	text-indent:25px;
+	display:block;
+	}
+	
+	*/
+	
+

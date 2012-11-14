@@ -1,0 +1,33 @@
+###seo friendly cydia search urls###
+
+Options  FollowSymLinks
+RewriteEngine on
+
+RewriteRule \.(css|jpe?g|gif|png|js)$ - [L]
+RewriteRule ^admin.* - [L]
+
+RewriteRule ^(.*)/$ /cydia/$1 [R=301,L]
+
+#Pages#
+RewriteRule ^page/([_0-9a-zA-Z-+()/.%&]+)$ ?pageid=$1 [L]
+
+#packages#
+RewriteRule ^id/([_0-9a-zA-Z-+()/.%&]+)$ ?id=$1 [L]
+
+#rss#
+RewriteRule ^feed/new/([_0-9a-zA-Z-+()/.%&]+)/([_0-9a-zA-Z-+()/.%&]+)$ packages.php?rss=added&f=$1&q=$2 [L]
+RewriteRule ^feed/new/([_0-9a-zA-Z-+()/.%&]+)$ packages.php?rss=added&f=$1&q= [L]
+RewriteRule ^feed/([_0-9a-zA-Z-+()/.%&]+)/([_0-9a-zA-Z-+()/.%&]+)$ packages.php?rss&f=$1&q=$2 [L]
+RewriteRule ^feed/([_0-9a-zA-Z-+()/.%&]+)$ packages.php?rss&f=$1&q= [L]
+
+#pagination#
+RewriteRule ([_0-9a-zA-Z-+()/.%&]+)/([_0-9a-zA-Z-+()/.%&]+)/([_0-9a-zA-Z-+()/.%&]+)$ ?f=$1&q=$2&p=$3 [L]
+
+
+#repos & sections#
+RewriteRule ([_0-9a-zA-Z-+()/.%&]+)/([_0-9a-zA-Z-+()/.%&]+)$ ?f=$1&q=$2 [L]
+RewriteRule ([_0-9a-zA-Z-+()/.%&]+)/([_0-9a-zA-Z-+()/.%&]+)/$ ?f=$1&q=$2 [L]
+
+
+
+

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; font-size:11px;}
+
+label,a, body 
+{
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size : 12px; 
+}
+.err
+{
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size : 12px;
+	color: red;
+}
+
+a{
+text-decoration:none;
+color:#0088CC;	
+}
+
+a:hover{
+text-decoration:underline;
+color:#222;	
+}
+a:visited{
+color:#0088CC;	
+}
+
+
+
+.repo_form_label_url{
+padding: 0px 0px 5px 0px;	
+
+}
+
+.repo_form_label_captcha{
+padding: 0px 0px 5px 0px;	
+}
+
+.repo_form_label_small{
+padding: 5px 0px 8px 0px;	
+
+}
+
+.repo_form input[type="text"] {
+		border: 1px solid #aaa;
+		/*background: #e5e5e5 url(/cydia/img/gradlight.gif) repeat-x left bottom;*/
+		margin:0;
+		padding: 5px 3px 4px 5px;
+		font-family: arial, helvetica;
+		font-weight: bold;
+		color: #333;
+		height: 18px;
+	}	
+
+	
+.repo_form button, input[type="submit"], .submit{
+		border: 1px solid #aaa;
+		background: #e5e5e5 url(/cydia/img/gradlight.gif) repeat-x left bottom;
+		margin:0;
+		padding: 5px 5px 4px 5px;
+		font-family: arial, helvetica;
+		font-weight: bold;
+		color: #333;
+	}
+
+	
+.repo_form button:hover, input[type="submit"]:hover{
+		background: #535353 url(/cydia/img/graddark.gif) repeat-x top left; 
+		color: #fff;
+		cursor: pointer;
+	}

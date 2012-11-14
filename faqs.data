@@ -1,0 +1,52 @@
+<!-- Begin FAQs Content -->
+
+<div class="cydia_browser_intro">
+	<div class="cydia_faqs_title"><h3>Frequently Asked Questions</h3></div>
+	<div class="cydia_faqs_container">
+	<b>What is Cydia Search?</b><br />
+	<p>Cydia Search is essentially a Debian APT repository search engine for the popular iOS app Cydia.</p>
+
+	<b>How often is Cydia Search updated?</b><br />
+	<p>Our system updates automatically once an hour.</p>
+
+	<b>Packages are labeled "from a trusted repository" or "NOT from a trusted repository".  What does this mean?</b>
+	<div class="faq_trusted_untrusted_p">Packages from default repositories which include saurik's own <a href="/cydia/repo/telesphoreo+tangelo">Tangelo Telesphoreo</a>, <a href="/cydia/repo/bigboss">BigBoss</a>, <a href="/cydia/repo/zodttd+%26+macciti">ZodTTD</a>, and <a href="/cydia/repo/modmyi.com">ModMyi.com</a> are marked with a green bar like this:</div>
+
+	<div class="trusted_package_faq">
+	<div class="trusted_package_icon">This package is from a trusted repository.</div>
+	</div>
+
+
+	Packages from non-default (private) repositories have a red bar like this:
+
+	<div class="untrusted_package_faq">
+	<div class="untrusted_package_icon">This package is NOT from a trusted repository.</div>
+	</div>
+
+	<p>While not all private repositories are a threat, some are not safe and could potentially harm your device. With that taken into consideration, err on the side of caution when using them.</p>
+
+	<b>Can I add my own APT repository to Cydia Search?</b>
+	<p>We allow users to submit their own private repositories for inclusion, but not all private repositories are approved. Your repository must maintain original, legal packages. Warez and plagiarizers are not included on our site. To submit your repository for reivew please complete the <a href="/cydia/#addrepo">Add Your Repostiory</a> form.</p>
+
+
+	<b>Why are the links to some packages blue?</b><br />
+	<p>Much like Cydia, our system displays Cydia Store packages in a different color to help them stand out over the free packages.</p>
+
+	<b>Why are prices for Cydia Store packages not displayed?</b><br />
+	<p>Unfortunately the pricing information for Cydia Store packages is cataloged on private servers and is inaccessable by our system.</p>
+
+	<b>Why is the "Last Updated" field on some packages marked as N/A?</b><br />
+	<p>The "Last Updated" field indicates when a package's version was last incremented. Upon initial import to our system, packages are considered new and are not yet assigned last updated date.</p>
+
+	<b>Why are author and maintainer email addresses missing?</b><br />
+	<p>We do not publicly broadcast email addresses of developers or package maintainers to prevent any malicious, ill intended or otherwise unapproved behavior, i.e., SPAM.</p>
+
+	<b>Why are some categories listed more than once?</b><br />
+	<p>When a package is added to a repository, Cydia detects the "Section:" field of it's CONTROL file and uses this value to determine which section to add that package to. Due to human error, typos are occasionally made in this field causing Cydia to create a new section with a similar name.</p>
+
+	<b>Why are some packages duplicated in the system?</b><br />
+	<p>Even though it shouldn't be, when a package is in multiple repositories it will appear in our system more than once.</p>
+	</div>
+	</div>
+
+<!-- End FAQs Content -->

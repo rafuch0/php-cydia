@@ -1,0 +1,4 @@
+AuthType Digest
+AuthUserFile /var/www/htdocs/cydia/admin/.htpasswd
+AuthName "Cydia Search Admin Login Area"
+require user admin
